@@ -116,8 +116,8 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+    "I'm currently looking for full-time Data analyzing or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+  email: "hsiao56@purdue.edu",
 };
 
 const experiences = {
@@ -125,14 +125,14 @@ const experiences = {
   heading: "Experiences",
   data: [
     {
-      role: 'Software Engineer',// Here Add Company Name
+      role: 'Business Analyst Intern',// Here Add Company Name
       companylogo: require('../assets/img/dell.png'),
       date: 'June 2018 – Present',
     },
     {
-      role: 'Front-End Developer',
+      role: 'Financial Foreign Exchange Specialist', 
       companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
+      date: 'Oct 2019 – Oct 2022',
     },
   ]
 }
