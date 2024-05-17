@@ -126,12 +126,12 @@ const experiences = {
   data: [
     {
       role: 'Business Analyst Intern',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
+      companylogo: require('../assets/img/ifbi.png'),
       date: 'June 2018 – Present',
     },
     {
       role: 'Financial Foreign Exchange Specialist', 
-      companylogo: require('../assets/img/boeing.png'),
+      companylogo: require('../assets/img/ESUNCE.webp'),
       date: 'Oct 2019 – Oct 2022',
     },
   ]
