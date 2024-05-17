@@ -48,7 +48,7 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/IMG_1315.JPG"),
+  imageLink: "../editable-stuff/IMG_1315.JPG",
   imageSize: 375,
   message:
     "My name is Chu-Yun (Riley) Hsiao. I’m a graduate of 2024 from Purdue University with a Master's degree in Business Analyst and Information Management. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of Data analyst. In my free time I like working on open source projects.",
