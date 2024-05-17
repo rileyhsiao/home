@@ -125,8 +125,8 @@ const experiences = {
   heading: "Experiences",
   data: [
     {
-      role: 'Business Analyst Intern',// Here Add Company Name
-      companylogo: require('../assets/img/ifbi1.webp'),
+      role: 'Business Analyst Intern, IFBI'
+      companylogo: require('../assets/img/ifbi2.png'),
       date: 'June 2018 – Present',
     },
     {
