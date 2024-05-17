@@ -7,7 +7,7 @@ const navBar = {
 const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
   firstName: "Chu-Yun",
-  middleName: "Riley",
+  middleName: "(Riley)",
   lastName: "Hsiao",
   message: " Passionate about changing the world with technology. ",
   icons: [
