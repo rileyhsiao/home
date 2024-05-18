@@ -68,7 +68,7 @@ const competition = {
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
   videos: [
     { 
-      url: "https://youtu.be/4SfIGPyx7ho", 
+      url: "https://www.example.com/video1.mp4", 
       label: "First video label", 
       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
     },
@@ -104,6 +104,38 @@ const competition = {
     }
   }
 };
+
+// Ensure `videos` and `additionalSection.videos` are defined before calling `map`
+const renderVideos = (videos) => {
+  if (!videos || !Array.isArray(videos)) return null;
+  return videos.map((video, index) => (
+    <div key={index}>
+      <h3>{video.label}</h3>
+      <p>{video.paragraph}</p>
+      <video width={competition.videoSize.width} height={competition.videoSize.height} controls>
+        <source src={video.url} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  ));
+};
+
+// Render the competition section
+const Competition = () => (
+  <div>
+    <h2>{competition.heading}</h2>
+    <p>{competition.message}</p>
+    {renderVideos(competition.videos)}
+    <div>
+      <h2>{competition.additionalSection.heading}</h2>
+      <p>{competition.additionalSection.message}</p>
+      {renderVideos(competition.additionalSection.videos)}
+    </div>
+  </div>
+);
+
+export default Competition;
+
 
 
 // SKILLS SECTION
