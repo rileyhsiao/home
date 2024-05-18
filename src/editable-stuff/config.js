@@ -130,12 +130,12 @@ const experiences = {
   data: [
     {
       role: 'Business Analyst Intern, Indiana Farm Bureau',
-      companylogo: require('../assets/img/farmbureau.png'),
+      companylogo: require('../assets/img/51mab9qRhlL.png'),
       date: 'Jan 2024 – Apr 2024',
     },
     {
       role: 'Financial Foreign Exchange Specialist, E.Sun Commercial Bank LTD.', 
-      companylogo: require('../assets/img/esunbanklogo.jpg'),
+      companylogo: require('../assets/img/E.sun.jpeg'),
       date: 'Oct 2019 – Oct 2022',
     },
   ]
