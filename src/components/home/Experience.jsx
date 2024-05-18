@@ -6,17 +6,17 @@ import {
   Row,
 } from "react-bootstrap";
 
-const Competition = ({ competition }) => {
+const Experience = ({ experiences }) => {
   return (
     <section className="section">
       <Container>
         <Jumbotron className="bg-white">
           <h2 className="display-4 mb-5 text-center">
-            {competition.heading}
+            {experiences.heading}
           </h2>
           <Row>
             {
-              competition.data.map((data, index) => {
+              experiences.data.map((data, index) => {
                 return <ExperienceCard key={index} data={data} />
               })
             }
@@ -27,4 +27,4 @@ const Competition = ({ competition }) => {
   );
 }
 
-export default Competition;
+export default Experience;
