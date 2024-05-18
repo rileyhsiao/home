@@ -42,9 +42,9 @@ const about = {
   show: true,
   heading: "About Me",
   imageLink: "../editable-stuff/IMG_1315.png",
-  imageSize: 375,
+  imageSize: 400,
   message:
-    "My name is Chu-Yun (Riley) Hsiao. I’m a graduate of 2024 from Purdue University with a Master's degree in Business Analyst and Information Management. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of Data analyst. In my free time I like working on open source projects.",
+    "My name is Chu-Yun (Riley) Hsiao. I’m a graduate of 2024 from Purdue University with a Master's degree in Business Analyst and Information Management. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of Data analyst.",
   resume: "https://drive.google.com/file/d/18oXalE6qkYSGW_j70w_IR0W6pMCfUbpI/view?usp=drive_link",
 };
 
