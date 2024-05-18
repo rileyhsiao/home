@@ -135,7 +135,7 @@ const experiences = {
     },
     {
       role: 'Financial Foreign Exchange Specialist, E.Sun Commercial Bank LTD.', 
-      companylogo: require('../assets/img/ESUNCE.webp'),
+      companylogo: require('../assets/img/esunbanklogo.jpg'),
       date: 'Oct 2019 – Oct 2022',
     },
   ]
