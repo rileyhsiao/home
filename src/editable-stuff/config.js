@@ -130,7 +130,7 @@ const experiences = {
   data: [
     {
       role: 'Business Analyst Intern, Indiana Farm Bureau',
-      companylogo: require('../assets/img/51mab9qRhlL.png'),
+      companylogo: require('../assets/img/farmbureau.png'),
       date: 'Jan 2024 – Apr 2024',
     },
     {
