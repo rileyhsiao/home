@@ -72,12 +72,7 @@ const achievement = {
       img: require("../editable-stuff/Poster Final .jpg"), 
       label: "Poster", 
       paragraph: "" 
-    },
-    { 
-      img: require(""), 
-      label: "", 
-      paragraph: "" 
-    },
+    }
   ],
   imageSize: {
     width:"615",
