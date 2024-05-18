@@ -55,12 +55,12 @@ const Home = React.forwardRef((props, ref) => {
           specfic={repos.specificRepos}
         />
       )}
-      {leadership.show && (
+      {competition.show && (
         <Leadership
-          heading={leadership.heading}
-          message={leadership.message}
-          img={leadership.images}
-          imageSize={leadership.imageSize}
+          heading={competition.heading}
+          message={competition.message}
+          img={competition.images}
+          imageSize={competition.imageSize}
         />
       )}
       {skills.show && (
