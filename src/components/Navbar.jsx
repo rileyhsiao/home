@@ -3,7 +3,7 @@ import { useScrollPosition } from "../hooks/useScrollPosition";
 import useResizeObserver from "../hooks/useResizeObserver";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import { mainBody, repos, about, experiences, skills, competition } from "../editable-stuff/config.js";
+import { mainBody, repos, about, experiences, skills, achievement } from "../editable-stuff/config.js";
 import { NavLink } from "./home/migration";
 
 const Navigation = React.forwardRef((props, ref) => {
@@ -89,12 +89,12 @@ const Navigation = React.forwardRef((props, ref) => {
               Skills
             </NavLink>
           )}
-          {competition.show && (
+          {achievement.show && (
             <NavLink
               className="nav-item lead"
-              href={process.env.PUBLIC_URL + "/#competition"}
+              href={process.env.PUBLIC_URL + "/#achievement"}
             >
-              Competition
+              Achievement
             </NavLink>
           )}
         </Nav>

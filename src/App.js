@@ -5,7 +5,7 @@ import {
   mainBody,
   about,
   repos,
-  competition,
+  achievement,
   skills,
   getInTouch,
   experiences
@@ -19,7 +19,7 @@ import Skills from "./components/home/Skills";
 // import { Blog } from "./components/blog/Blog";
 // import BlogPost from "./components/blog/BlogPost";
 import GetInTouch from "./components/home/GetInTouch.jsx";
-import Competition from "./components/home/Leadership.jsx";
+import Achievement from "./components/home/Leadership.jsx";
 
 import Experience from "./components/home/Experience";
 
@@ -55,12 +55,12 @@ const Home = React.forwardRef((props, ref) => {
           specfic={repos.specificRepos}
         />
       )}
-      {competition.show && (
-        <Competition
-          heading={competition.heading}
-          message={competition.message}
-          img={competition.images}
-          imageSize={competition.imageSize}
+      {achievement.show && (
+        <Achievement
+          heading={achievement.heading}
+          message={achievement.message}
+          img={achievement.images}
+          imageSize={achievement.imageSize}
         />
       )}
       {skills.show && (

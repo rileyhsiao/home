@@ -2,10 +2,10 @@ import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import { Jumbotron } from "./migration";
 
-const Competition = ({ heading, message, img, imageSize }) => {
+const Achievement = ({ heading, message, img, imageSize }) => {
   return (
     <Jumbotron
-      id="competition"
+      id="achievement"
       className="m-0"
       style={{ backgroundColor: "white" }}
     >
@@ -42,4 +42,4 @@ const Competition = ({ heading, message, img, imageSize }) => {
   );
 };
 
-export default Competition;
+export default Achievement;
